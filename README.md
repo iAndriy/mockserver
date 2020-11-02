@@ -26,7 +26,7 @@ The internal mockserver port is `8888` and directory for looking up mock respons
 For use in docker-compose please add following entry:
 ```
 mock-server:
-    image: iandriy/mockserver@sha256:2416b70fa07c4dbd10312893f40c1c825d07859cbb900f3ffd5cf9a68b58a2a5
+    image: iandriy/mockserver:latest
     ports:
     - published: 8888
       target: 8888
